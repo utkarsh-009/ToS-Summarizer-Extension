@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Terms of Services Summarizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: large;
+            display: block;
+            margin: 20px auto;
+            border: none;
+            cursor: pointer;
+        }
+
+        button[disabled] {
+            background-color: lightcoral;
+            cursor: not-allowed;
+        }
+
+        p {
+            font-size: medium;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 90%;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Terms of Services Summarizer</h1>
+    <button id="summarise" type="button">Summarise</button>
+    <br />
+    <p id="output"></p>
+    <script src="popup.js"></script>
+</body>
+
+</html>
